@@ -11,7 +11,6 @@ import epImage from "../public/images/attractsme-ep.jpg";
 import spotify from "../public/images/spotify.png";
 import apple from "../public/images/apple.png";
 import bandcamp from "../public/images/bandcamp-long.svg";
-import video from "../public/videos/Evening_Clouds.mp4";
 
 // Screens
 import LandingScreen from "../screens/landing";
@@ -166,7 +165,10 @@ const Home: NextPage = () => {
         </section>
 
         <video autoPlay muted loop className={ui.video}>
-          <source src={video} type="video/mp4" />
+          <source
+            src={require("../public/videos/Evening_Clouds.mp4")}
+            type="video/mp4"
+          />
         </video>
         <div className={ui.background}></div>
         <div className={ui.background2}></div>
