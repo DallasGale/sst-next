@@ -1,0 +1,18 @@
+
+button {
+  cursor: pointer;
+}
+.footer {
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.buy-container {
+  position: relative;
+  width: 100%;
+
+}

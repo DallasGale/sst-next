@@ -1,0 +1,25 @@
+.title {
+  width: 80vw;
+  margin: 0 auto;
+  @media only screen and (min-width: 1024px) {
+    margin: 0;
+    width: 20vw;
+    padding: 3.5vw 0 0 5vw;
+  }
+}
+
+.fulljustify {
+  font-weight: 100;
+  text-align: justify;
+  font-size: 4vw;
+  line-height: 12.5vw;
+  @media only screen and (min-width: 1024px) {
+    font-size: 1vw;
+    line-height: 2.5vw;
+  }
+}
+.fulljustify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}

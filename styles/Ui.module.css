@@ -1,0 +1,176 @@
+
+.ctas {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.ctaBtn {
+  background: none;
+  border: 1px solid #fff;
+  font-size: 25px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ctaBtn:hover {
+  color: var(--var-highlight);
+  transition: all 0.2s ease-in-out;
+}
+
+.musicLink {
+  min-width: 200px;
+  max-width: 200px;
+  width: 200px;
+}
+
+.listenBuyContainer {
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  flex-direction: row;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.listenBuyContainer img {
+  max-height: 25px;
+}
+
+
+.video {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -9;
+  width: 100vw;
+  opacity: 0.1;
+  height: 100vh;
+  object-fit: cover;
+  filter: blur(9px) sepia(1);
+  transform: scale(1.1);
+}
+
+@keyframes animate-bg {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.background {
+  animation: animate-bg 100s infinite forwards linear;
+  /* background: #fff url('/images/background.jpg'); */
+  background: url("/images/landing-bg.jpg");
+  background-size: cover;
+  background-position: center right;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  opacity: 0.8;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+@keyframes animate-bg-2 {
+  0% {
+    transform: scale(1.2);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.background2 {
+  background: url("/images/landing-bg-bright.jpg");
+  background-size: cover;
+  background-position: center right;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  opacity: 0.5;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  z-index:-11;
+  top: 0;
+  left: 0;
+}
+
+
+
+.nav {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 3.5vh;
+  left: 5vw;
+}
+.nav-ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.nav-li {
+  display: inline-flex;
+  font-size: 12px;
+  margin-right: 30px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+
+.navIconSet {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.navIconWrapper {
+  display: block;
+  width: 75px;
+  max-height: 30px;
+  margin-bottom: 20px;
+}
+.navIcon {
+  text-indent: -9999px;
+  opacity: 0.4;
+  transition: all 0.3s;
+}
+
+.navIcon:hover {
+  opacity: 1;
+  transition: all 0.3s;
+}

@@ -1,0 +1,78 @@
+@import "./helpers.css";
+@import "./footer.css";
+
+
+:root {
+  --var-highlight: #f6bb00;
+}
+* {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: #fff;
+}
+
+body {
+  /* background: url("/images/landing-bg.jpg") cover center center; */
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+
+.buy-stream {
+  display: inline-flex;
+  flex: 1;
+  width: auto;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+
+@keyframes contents {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.contents {
+  display: none;
+  opacity: 0;
+  animation: contents 1 forwards linear 1s;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  top: 20vh;
+  left: 0;
+  right: 0;
+  padding-bottom: 80px;;
+
+}
+
+.twinkles-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width:  100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.3);
+  z-index: 0;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+
+  100% {
+
+    opacity: 0.3;
+  }
+}
