@@ -116,7 +116,7 @@ const Home: NextPage = () => {
               <p
                 className={`${typography.paragraph} ${typography.secondaryText}`}
               >
-                Produced at Dallas' home studio in Melbourne, Australia and
+                Produced at Dallas&apos; home studio in Melbourne, Australia and
                 mastered by{" "}
                 <a
                   href="https://www.worldwidemastering.org/"
@@ -158,9 +158,6 @@ const Home: NextPage = () => {
                     >
                       <Image src={spotify} alt="Spotify" />
                     </a>
-                    {/* <a href="" className="music-link">
-                      <img src="./images/youtube.svg" alt="YouTube Music" />
-                    </a> */}
                   </div>
                 </div>
               </div>
