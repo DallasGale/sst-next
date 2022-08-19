@@ -12,7 +12,8 @@ const nextConfig = {
         headers: [
           {
             key: "Cache-Control",
-            value: "public, smax-age=0, must-revalidate, Origin Control: Off",
+            value:
+              "public, s-maxage=0, max-age=0, must-revalidate, Origin Control: Off",
           },
         ],
       },
