@@ -1,5 +1,7 @@
 {
-  "headers": {
-    "s-maxage": 0
-  }
+  "headers": [
+    {
+      "s-maxage": 0
+    }
+  ]
 }
