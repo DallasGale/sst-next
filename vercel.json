@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "s-maxage": 0
+      "Cache-Control": "s-maxage=0, Origin Control: Off"
     }
   ]
 }
