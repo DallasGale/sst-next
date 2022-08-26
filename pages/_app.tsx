@@ -1,13 +1,14 @@
 import type { AppProps } from "next/app";
-import "../styles/styles.scss";
-import * as React from "react";
 import Head from "next/head";
 // CSS
+import "../styles/styles.scss";
 import ui from "../styles/ui.module.scss";
-import Nav from "../components/nav";
 
 // Screens
 import LandingScreen from "../screens/landing";
+
+// Components
+import Nav from "../components/nav";
 
 function App({ Component, pageProps }: AppProps) {
   return (
