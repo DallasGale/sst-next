@@ -2,7 +2,6 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 // CSS
 import "../styles/styles.scss";
-import ui from "../styles/ui.module.scss";
 
 // Screens
 import LandingScreen from "../screens/landing";
@@ -30,10 +29,10 @@ function App({ Component, pageProps }: AppProps) {
         <LandingScreen />
         <Component {...pageProps} />
         <Nav />
-        <section className={ui.backgroundWrapper}>
-          <div className={ui.background}></div>
+        <section className="backgroundWrapper">
+          <div className="background"></div>
         </section>
-        <video autoPlay muted loop className={ui.video}>
+        <video autoPlay muted loop className="video">
           <source
             src={require("../public/videos/Evening_Clouds.mp4")}
             type="video/mp4"
