@@ -21,8 +21,10 @@
 body {
   /* background: url("/images/landing-bg.jpg") cover center center; */
   margin: 0;
-  overflow: hidden;
   padding: 0;
+  @include respond-to(tablet) {
+    overflow: hidden;
+  }
 }
 
 .buy-stream {

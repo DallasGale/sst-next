@@ -25,7 +25,7 @@ const Music = () => {
           {/* <h3 className="typography__sub-heading">ATTRACTS EP</h3> */}
           <p className="typography__paragraph">
             Released on 29 July, 2022 this is the debut EP for Steady State
-            Theory. Features analogue syntesizers, keys, drum sampling and also
+            Theory. Features analogue synthesisers, keys, drum sampling and also
             various vocal samples. The title track ATTRACTS has used some spoken
             word by Nina Simone as she talks to the audience at the Montreux
             Festival in 1976.

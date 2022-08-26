@@ -3,30 +3,40 @@
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
-    color: $transblack;
+    color: $white;
     margin-top: 0;
+    // @include respond-to(tablet) {
+    //   color: $transblack;
+    // }
   }
   &__small {
     font-size: 8px;
     line-height: 1.5;
     font-weight: 400;
-    color: $transblack;
     margin-top: 0;
+    color: $transblack;
+    color: $white;
+    // @include respond-to(tablet) {
+    //   color: $transblack;
+    // }
   }
 
   &__section-heading {
     font-size: 15px;
-    color: $transblack;
-    // text-transform: lowercase;
     font-weight: 100;
     margin-top: 0;
     margin-bottom: 20px;
+    color: $white;
     @include respond-to(tablet) {
       font-size: 25px;
+      // color: $transblack;
     }
 
     em {
-      color: $transblack;
+      color: $white;
+      @include respond-to(tablet) {
+        // color: $transblack;
+      }
     }
   }
   &__sub-heading {
@@ -54,8 +64,11 @@ strong {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 400;
-  color: $transblack;
   line-height: 2.4;
   padding-bottom: 8px;
   @include link;
+  color: $white;
+  // @include respond-to(tablet) {
+  //   color: $transblack;
+  // }
 }

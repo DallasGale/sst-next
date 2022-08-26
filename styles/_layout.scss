@@ -47,9 +47,15 @@
 
 .layout__artwork-wrapper {
   flex: 2;
-  height: 150px;
-  min-width: 150px;
-  max-width: 150px;
+  height: 240px;
+  min-width: 240px;
+  max-width: 240px;
+  margin: 0 auto;
+  @include respond-to(tablet) {
+    height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+  }
   @include respond-to(desktop) {
     grid-column: 1 / 3;
     grid-row: 2;
@@ -66,16 +72,17 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  background-color: $transbg;
+  // background-color: $transbg;
   padding: 20px;
   border-radius: 10px;
   @include respond-to(tablet) {
     flex-direction: row;
+    // background-color: $transbg;
   }
 }
 
 .layout__about-content {
-  background-color: $transbg;
+  // background-color: $transbg;
   padding: 20px;
   width: 100%;
   border-radius: 10px;
