@@ -2,7 +2,6 @@
   font-weight: bold;
 }
 
-
 .h1 {
   font-size: 12px;
   margin: 0;
@@ -12,7 +11,7 @@
   position: relative;
   flex: 1;
   display: flex;
-  
+
   justify-content: center;
   width: 100%;
 }
@@ -30,7 +29,6 @@
 .h1:hover .nav-ul {
   visibility: visible;
   height: auto;
-
 }
 .h2 {
   font-size: 20px;
@@ -59,18 +57,15 @@
   transition: all 0.2s ease-in-out;
 }
 
-
-
 .paragraph {
-  font-size: 16px;
-  line-height: 1.8;  
+  font-size: 14px;
+  line-height: 1.8;
   font-weight: 400;
 }
 
 .paragraphLink {
   color: #fff;
   font-weight: bold;
-
 }
 .blockquote {
   font-weight: 100;
@@ -83,7 +78,7 @@
 
 .read-more-btn {
   background: none;
-  border:none;
+  border: none;
   padding: 0;
 }
 .read-more {
@@ -99,7 +94,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-
 .secondaryText {
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
 }

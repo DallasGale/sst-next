@@ -1,0 +1,35 @@
+.screens__landing-title {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 60px;
+  @include respond-to(desktop) {
+    margin: 0;
+    width: 200px;
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  &:hover {
+    .screens__landing-fulljustify {
+      transition: all 0.3s;
+      color: black;
+    }
+  }
+}
+
+.screens__landing-fulljustify {
+  cursor: pointer;
+  font-weight: 100;
+  text-align: justify;
+  line-height: 1;
+  @include respond-to(desktop) {
+    font-size: 4vw;
+    line-height: 12.5vw;
+    font-size: 12px;
+    line-height: 30px;
+  }
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+}

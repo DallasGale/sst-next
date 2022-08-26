@@ -1,0 +1,53 @@
+.typography {
+  &__paragraph {
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: $transwhite;
+    margin-top: 0;
+  }
+  &__small {
+    font-size: 8px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: $transwhite;
+    margin-top: 0;
+  }
+
+  &__section-heading {
+    font-size: 15px;
+    color: $transwhite;
+    font-weight: 600;
+    // text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+    @include respond-to(tablet) {
+      font-size: 25px;
+    }
+  }
+  &__sub-heading {
+    font-size: 11px;
+    color: $highlight;
+    font-weight: 600;
+    opacity: 1;
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+}
+
+strong {
+  font-weight: 400;
+  color: $white;
+}
+
+.typography__ordered-list {
+  margin-left: 0;
+  padding-left: 15px;
+  li {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    color: $white;
+    line-height: 2;
+  }
+}

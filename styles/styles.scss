@@ -1,12 +1,18 @@
-@import "./helpers.css";
-@import "./footer.css";
-
+@import "breakpoints";
+@import "globals.scss";
+@import "variables.scss";
+@import "layout.scss";
+@import "nav.scss";
+@import "typography.scss";
+@import "screens.scss";
+@import "helpers.scss";
+@import "footer.scss";
 
 :root {
   --var-highlight: #f6bb00;
 }
 * {
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   color: #fff;
 }
 
@@ -17,7 +23,6 @@ body {
   padding: 0;
 }
 
-
 .buy-stream {
   display: inline-flex;
   flex: 1;
@@ -25,7 +30,6 @@ body {
   min-width: 200px;
   max-width: 400px;
 }
-
 
 @keyframes contents {
   0% {
@@ -47,8 +51,7 @@ body {
   top: 20vh;
   left: 0;
   right: 0;
-  padding-bottom: 80px;;
-
+  padding-bottom: 80px;
 }
 
 .twinkles-container {
@@ -56,9 +59,9 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  width:  100vw;
+  width: 100vw;
   height: 100vh;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
   z-index: 0;
 }
 
@@ -72,7 +75,6 @@ body {
   }
 
   100% {
-
     opacity: 0.3;
   }
 }
