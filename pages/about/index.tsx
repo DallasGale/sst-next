@@ -15,6 +15,10 @@ const About = () => {
         layout="intrinsic"
         alt="Steady State Theory - Attracts EP"
       /> */}
+
+      <section className="backgroundWrapper">
+        <div className="background"></div>
+      </section>
     </section>
   );
 };
