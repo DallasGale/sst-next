@@ -15,7 +15,7 @@
     margin-bottom: 80px;
   }
   @include respond-to(widescreen) {
-    grid-column: 1 / 5;
+    grid-column: 1 / 6;
     grid-row: 2;
     margin-bottom: 80px;
   }
@@ -66,17 +66,22 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  background-color: $transblack;
+  background-color: $transbg;
   padding: 20px;
+  border-radius: 10px;
   @include respond-to(tablet) {
     flex-direction: row;
   }
 }
 
 .layout__about-content {
-  background-color: $transblack;
+  background-color: $transbg;
   padding: 20px;
   width: 100%;
+  border-radius: 10px;
+  @include respond-to(tablet) {
+    width: auto;
+  }
 }
 
 .layout__stream-buy-list {

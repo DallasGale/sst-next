@@ -7,8 +7,6 @@ import Apple from "/public/images/apple.png";
 const Music = () => {
   return (
     <section className="layout__content layout__content--music">
-      {/* <h2 className="typography__section-heading">Music</h2> */}
-
       <div className="layout__music-content">
         <div className="layout__artwork-wrapper">
           <a href="https://steadystatetheory-music.bandcamp.com/releases">
@@ -21,6 +19,9 @@ const Music = () => {
           </a>
         </div>
         <div className="layout__music-text">
+          <h2 className="typography__section-heading">
+            <em>Attracts</em> EP
+          </h2>
           {/* <h3 className="typography__sub-heading">ATTRACTS EP</h3> */}
           <p className="typography__paragraph">
             Released on 29 July, 2022 this is the debut EP for Steady State
