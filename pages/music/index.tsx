@@ -7,7 +7,7 @@ import Apple from "/public/images/apple.png";
 const Music = () => {
   return (
     <section className="layout__content layout__content--music">
-      <h2 className="typography__section-heading">Releases</h2>
+      {/* <h2 className="typography__section-heading">Music</h2> */}
 
       <div className="layout__music-content">
         <div className="layout__artwork-wrapper">
@@ -16,25 +16,48 @@ const Music = () => {
               src={EpArtwork}
               layout="intrinsic"
               alt="Steady State Theory - Attracts EP"
+              placeholder="blur"
             />
           </a>
         </div>
         <div className="layout__music-text">
-          <h3 className="typography__sub-heading">ATTRACTS EP</h3>
+          {/* <h3 className="typography__sub-heading">ATTRACTS EP</h3> */}
           <p className="typography__paragraph">
-            Released on 29 July, 2022 this is the first release for Steady State
-            Theory. The title track features a vocal sample from Nina Simone
-            speaking to the audience at the Montreux Festival in 1976.
+            Released on 29 July, 2022 this is the debut EP for Steady State
+            Theory. Features analogue syntesizers, keys, drum sampling and also
+            various vocal samples. The title track ATTRACTS has used some spoken
+            word by Nina Simone as she talks to the audience at the Montreux
+            Festival in 1976.
           </p>
           <p className="typography__paragraph"></p>
           <p className="typography__paragraph">
             <ol className="typography__ordered-list">
-              <li>High</li>
-              <li>Attracts</li>
-              <li>What Are You Trying To Do?</li>
+              <li>
+                <a
+                  className="typography__link"
+                  href="https://steadystatetheory-music.bandcamp.com/track/high-2"
+                >
+                  High
+                </a>
+              </li>
+              <li>
+                <a
+                  className="typography__link"
+                  href="https://steadystatetheory-music.bandcamp.com/track/attracts"
+                >
+                  Attracts
+                </a>
+              </li>
+              <li>
+                <a
+                  className="typography__link"
+                  href="https://steadystatetheory-music.bandcamp.com/track/what-are-you-trying-to-do"
+                >
+                  What Are You Trying To Do?
+                </a>
+              </li>
             </ol>
           </p>
-          <h3 className="typography__sub-heading">Stream / Buy</h3>
           <ul className="layout__stream-buy-list">
             <li className="layout__stream-buy-list--item">
               <a href="https://steadystatetheory-music.bandcamp.com/releases">

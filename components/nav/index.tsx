@@ -7,7 +7,7 @@ const Nav = () => {
           <Link href="/about">About</Link>
         </li>
         <li className="nav__page-link">
-          <Link href="/music">Releases</Link>
+          <Link href="/music">Music</Link>
         </li>
         {/* <li className="nav__page-link">
           <Link href="/contact">Contact</Link>

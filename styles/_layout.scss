@@ -20,17 +20,17 @@
     margin-bottom: 80px;
   }
 
-  &--music {
-    @include respond-to(tablet) {
-      position: absolute;
-      width: 70vw;
-      max-width: 700px;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      top: 260px;
-    }
-  }
+  // &--music {
+  //   @include respond-to(tablet) {
+  //     position: absolute;
+  //     width: 70vw;
+  //     max-width: 700px;
+  //     left: 0;
+  //     right: 0;
+  //     margin: 0 auto;
+  //     top: 260px;
+  //   }
+  // }
 }
 
 .layout__main {
@@ -50,7 +50,6 @@
   height: 150px;
   min-width: 150px;
   max-width: 150px;
-  padding-right: 20px;
   @include respond-to(desktop) {
     grid-column: 1 / 3;
     grid-row: 2;
@@ -62,9 +61,21 @@
 
 .layout__music-content {
   display: flex;
-  flex-direction: row;
+  gap: 30px;
   align-items: flex-start;
+  flex-direction: column;
   justify-content: flex-start;
+  width: 100%;
+  background-color: $transblack;
+  padding: 20px;
+  @include respond-to(tablet) {
+    flex-direction: row;
+  }
+}
+
+.layout__about-content {
+  background-color: $transblack;
+  padding: 20px;
   width: 100%;
 }
 

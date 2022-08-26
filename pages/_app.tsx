@@ -29,6 +29,9 @@ function App({ Component, pageProps }: AppProps) {
         <LandingScreen />
         <Component {...pageProps} />
         <Nav />
+        <section className="backgroundWrapper">
+          <div className="background"></div>
+        </section>
         <video autoPlay muted loop className="video">
           <source
             src={require("../public/videos/Evening_Clouds.mp4")}

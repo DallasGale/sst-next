@@ -59,24 +59,7 @@
   font-size: 12px;
   font-weight: 500;
   color: $white;
-  transition: all 0.3s;
-  position: relative;
-  &:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    height: 1px;
-    background: $white;
-    width: 0;
-    left: 0;
-    transition: $transition_03;
-  }
-  &:hover {
-    &:after {
-      width: 100%;
-      transition: $transition_03;
-    }
-  }
+  @include link;
 }
 
 .nav__page-link:hover {

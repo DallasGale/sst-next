@@ -1,0 +1,21 @@
+@mixin link {
+  position: relative;
+  transition: $transition_03;
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    background: $white;
+    width: 0;
+    left: 0;
+    transition: $transition_03;
+  }
+  &:hover {
+    color: $highlight;
+    &:after {
+      width: 100%;
+      transition: $transition_03;
+    }
+  }
+}
