@@ -19,29 +19,17 @@
     grid-row: 2;
     margin-bottom: 80px;
   }
-
-  // &--music {
-  //   @include respond-to(tablet) {
-  //     position: absolute;
-  //     width: 70vw;
-  //     max-width: 700px;
-  //     left: 0;
-  //     right: 0;
-  //     margin: 0 auto;
-  //     top: 260px;
-  //   }
-  // }
 }
 
 .layout__main {
   display: flex;
   flex-direction: column;
+  padding: 1.2vw 0 0 3vw;
   @include respond-to(desktop) {
     display: grid;
     height: 100vh;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 200px auto 60px;
-    padding: 1.2vw 0 0 3vw;
   }
 }
 
@@ -72,17 +60,14 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  // background-color: $transbg;
   padding: 20px;
   border-radius: 10px;
   @include respond-to(tablet) {
     flex-direction: row;
-    // background-color: $transbg;
   }
 }
 
 .layout__about-content {
-  // background-color: $transbg;
   padding: 20px;
   width: 100%;
   border-radius: 10px;

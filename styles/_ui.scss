@@ -49,11 +49,9 @@
   right: 0;
   z-index: -9;
   width: 100vw;
-  opacity: 0.4;
+  opacity: 0.3;
   height: 100vh;
   object-fit: cover;
-  // filter: blur(9px);
-  // transform: scale(1.5);
 }
 
 @keyframes animate-bg {
@@ -84,7 +82,6 @@
 }
 
 .background {
-  // animation: animate-bg 200s infinite forwards linear;
   background: url("/images/landing-bg-bright.jpg");
   background-size: cover;
   background-position: center right;
